@@ -1,6 +1,6 @@
 # Car_parking_slot_management
 <br>
-This project is applied using Esp32 Cam and Yolo-V8(for car detection). I made a datset of binary images of good parking and overparking. Then Applied Convolutional Neural Network to classify good parking and overparking. and saved the model as "parking_model.h5". Then I selected my slotpoints for drawing a rectangle on each slot. Call this model named "parking_model.h5" inside parking_slot_management_and_overparking_detection.py . 
+This project uses Esp32 Cam and Yolo-V8(for car detection). I made a datset of binary images of good parking and overparking. Then Applied Convolutional Neural Network to classify good parking and overparking. and saved the model as "parking_model.h5". Then I selected my slotpoints for drawing a rectangle on each slot. Call this model named "parking_model.h5" inside parking_slot_management_and_overparking_detection.py . 
 </br>
 <br> 
 step 1: Select your region of interest by selecting points.
